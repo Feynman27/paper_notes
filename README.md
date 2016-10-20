@@ -1,2 +1,2 @@
-# paper_notes
+# Paper Notes
 Notes from ML papers
