@@ -12,7 +12,7 @@
 - Objective function directly optimizes word-error rate.
 
 ## Network Architecture
-Recurrent neural networks take an input sequence $$\bf{x} = (x_{1}...x_{T})$$, computes a hidden vector $\bf{h} = (h_{1}...h_{T})$ and outputs a vector sequence $\bf{y} = (y_{1}...y_{T})$ by iterating from $t=1$ to $T$:
+Recurrent neural networks take an input sequence **x = (x_1, ..., x_T)**, computes a hidden vector $\bf{h} = (h_{1}...h_{T})$ and outputs a vector sequence $\bf{y} = (y_{1}...y_{T})$ by iterating from $t=1$ to $T$:
 
 \begin{equation}
 
