@@ -11,8 +11,8 @@
 - CTC integrates over all possible input-output alignment, and thus requires no re-alignment as is required in HMM network.
 - Objective function directly optimizes word-error rate.
 
-# Network Architecture
-Recurrent neural networks take an input sequence $\bf{x} = (x_{1}...x_{T})$, computes a hidden vector $\bf{h} = (h_{1}...h_{T})$ and outputs a vector sequence $\bf{y} = (y_{1}...y_{T})$ by iterating from $t=1$ to $T$:
+## Network Architecture
+Recurrent neural networks take an input sequence $$\bf{x} = (x_{1}...x_{T})$$, computes a hidden vector $\bf{h} = (h_{1}...h_{T})$ and outputs a vector sequence $\bf{y} = (y_{1}...y_{T})$ by iterating from $t=1$ to $T$:
 
 \begin{equation}
 
